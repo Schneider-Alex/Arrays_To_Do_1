@@ -14,3 +14,16 @@ function noSpaces(string){
     return newString
 }
 console.log(noSpaces("Hello my na me is Al ex"));
+
+
+function justDigits(string){
+    var newString =""
+    for (var i =0;i<string.length;i++){
+        if(string[i]/1 || string[i]=="0"){
+        newString+=string[i]
+    }
+    }
+    
+    return (newString/1)
+}
+console.log(justDigits("0s1a3y5w70h9a2t4?6!8?0"))
